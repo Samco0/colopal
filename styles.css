@@ -8,11 +8,14 @@ body {
   text-align: center;
   padding: 5%;
   background-color: #403d39;
+  height: 100%;
+  margin: 0;
 }
 
 .container {
     border: 3px transparent;
     background-color: #fffcf2;
-    width: 90% fixed;
-    height: 90% fixed;
+    width: 90%;
+    height: 90%;
+    box-sizing: border-box;
 }
