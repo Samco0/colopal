@@ -4,23 +4,32 @@ html, body {
 }
 
 body {
-    font-family: "Edu NSW ACT Hand Pre", cursive;
-    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-    background-color: #252422;
+nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid rgb(137, 135, 135);
+}
+
+.nav_logo{
+    margin-right: 77%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.nav_link{
+    margin-left: 3%;
+    text-decoration: none;
+    color: inherit;
 }
 
 header {
     font-size: xx-large;
-}
-
-.container {
-    background-color: #fffcf2;
-    width: 90%;
-    height: 90%;
-    border: 3px solid transparent;
-    box-sizing: border-box;
 }
