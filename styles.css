@@ -7,12 +7,12 @@ body {
   font-optical-sizing: auto;
   text-align: center;
   padding: 5%;
-  background-color: #0d1321;
+  background-color: #403d39;
 }
 
 .container {
     border: 3px transparent;
-    background-color: #f0ebd8;
-    width: 90%;
-    height: 90%;
+    background-color: #fffcf2;
+    width: 90% fixed;
+    height: 90% fixed;
 }
