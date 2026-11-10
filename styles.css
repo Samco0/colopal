@@ -2,3 +2,8 @@ header {
     font-size: large;
     align-self: center;
 }
+
+body {
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-optical-sizing: auto;
+}
