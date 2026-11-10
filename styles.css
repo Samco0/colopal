@@ -4,10 +4,17 @@ html, body {
 }
 
 body {
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+    text-align: center;
+
     background-color: #252422;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+header {
+    font-size: xx-large;
 }
 
 .container {
