@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sankofa+Display&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="build_colors()">
     <nav><p class="nav_logo">Colopal</p> <a href="#" class="nav_link">Generator</a> <a href="#" class="nav_link">Idk yet</a></nav>
     <article id="color_section" class="color_section">
         <div id="color0" class="color_div"></div>
@@ -20,6 +20,6 @@
         <div id="color4" class="color_div"></div>
     </article>
     <button id="refresh_colors" onclick="build_colors()">Refresh</button>
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
 </body>
 </html>

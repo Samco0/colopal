@@ -37,5 +37,6 @@ function build_colors() {
 
     for (let i = 0; i < colors.length; i++) {
         color_divs[i].style.backgroundColor = "#" + colors[i];
+        color_divs[i].innerHTML = "<p class=\"color_code\">#" + colors[i] + "</p>";
     }
 }

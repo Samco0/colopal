@@ -16,6 +16,12 @@ body {
     flex: 1;
 }
 
+.color_code {
+    color: white;
+    align-self: center;
+    justify-self: center;
+}
+
 nav{
     display: flex;
     justify-content: center;
